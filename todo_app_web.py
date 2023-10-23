@@ -40,5 +40,3 @@ for index, item in enumerate(todos_list):
         functions.write_todos_to_file(todos_list)
         del st.session_state[f"checkbox_{index}"]
         st.rerun()
-
-st.session_state
